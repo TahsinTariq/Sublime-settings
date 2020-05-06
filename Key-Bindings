@@ -1,0 +1,13 @@
+[
+	{
+  "keys": ["ctrl+r"], "command": "build",
+  "context": [{ "key": "selector", "operator": "equal", "operand": "source.pde" }]
+},
+{
+  "keys": ["ctrl+shift+r"], "command": "build",
+    "args": {"variant": "Run sketch fullscreen"},
+    "context": [{ "key": "selector", "operator": "equal", "operand": "source.pde" }]
+},
+{ "keys": ["ctrl+q"], "command": "exec", "args": {"kill": true} },
+{"keys": ["ctrl+t"], "command": "reindent", "args": {"single_line": false}}
+]
